@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <a href="#"><span class="name">Olha Mitsiuk</span></a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/olha-mitsiuk/" target="_blank"><img src="./assets/img/social.png" alt=""></a>
+            <a href="https://github.com/olgamitsiuk/" target="_blank"><img src="./assets/img/github.png" alt=""></a>
+            <a href="#" type="button" class="button">Hire me</a>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="about-photo"><img src="./assets/img/photo.jpg" alt="photo"></div>
+            <div class="about-text">
+                <h2>Hello, I'm Olha Mitsiuk</h2>
+                <h1>Front End Developer, based in Staines, Surrey</h1>
+                <p>I am expirienced in website development. Proficient in utilising HTML5, CSS3, JavaScript, and TypeScript to deliver innovative solutions. Specialised in React and Svelte frameworks.</p>
+            </div>
+        </section >
+        <section class="projects" id="projects">
+            <h1 >Latest project</h1>
+            <div class="project-image" id="project1-image">
+                <a href="https://olgamitsiuk.github.io/cocktail-project/" target="_blank">
+                    <img src="./assets/img/coctails.jpg" alt="">
+                </a>
+            </div>
+            <div class="project-description" id="project1-description">
+                <h2>The Cocktail Project </h2>
+                <p>Project focused on researching ingredients and exploring potential variations of cocktail recipes using an external cocktail database.</p>
+                <div>
+                    <a href="https://github.com/olgamitsiuk/cocktail-project" type="button" class="button" target="_blank">Repo</a>
+                </div>
+            </div>
+            <div class="project-description" id="project2-description">
+                <h2>Smart Green House System</h2>
+                <p>This system is designed to simulate a dynamic and automated greenhouse environment with manual control option.</p>
+                <div>
+                    <a href="https://github.com/olgamitsiuk/smart-greenhouse" type="button" class="button" target="_blank">Repo</a>
+                </div>
+            </div>
+            <div class="project-image" id="project2-image">
+                <a href="https://olgamitsiuk.github.io/smart-greenhouse/" target="_blank">
+                    <img src="./assets/img/smart-greenhouse.png" alt="">
+                </a>
+            </div>
+            
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contacts-content">
+                
+                <div class="my-contacts">
+                    <h1>Contacts</h1>
+                <span>Email:</span>
+                <a href="mailto:mitsyuk.olga@gmail.com" target="_blank">mitsyuk.olga@gmail.com</a>
+                <span>Phone:</span>
+                <a href="tel:+447774159472">+44 777 415 9472</a>
+                <a href="https://www.linkedin.com/in/olha-mitsiuk/" target="_blank"><img src="./assets/img/social.png" alt=""></a>
+                <a href="https://github.com/olgamitsiuk/" target="_blank"><img src="./assets/img/github.png" alt=""></a>
+                </div>
+                <form class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <label for="text">Message</label>
+                    <textarea id="text" rows="3" placeholder="Message"></textarea>
+                    <div class="">
+                        <a type="button" class="send">Send</a>
+                    </div>
+                  </form>
+            </div>
+        </section>
+    </main>
+<footer>
+    <p>2024 by Olha Mitsiuk</p>
+</footer>   
+</body>
+</html>
